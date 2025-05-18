@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <link rel="icon" id="icon" href="https://ssl.gstatic.com/classroom/favicon.ico">
+  <link rel="icon" id="icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/a4/21/9fa42118-95da-d6c5-126b-54fdeb0a8a49/AppIcon-0-1x_U007epad-0-0-0-1-0-0-0-85-220-0.png/1200x630wa.png">
   <script src="/assets/js/cdn-rocket.js?v=3" defer></script>
   <link rel="stylesheet" href="/assets/css/app.css?v=3">
   <link rel="stylesheet" href="/assets/css/menu.css?v=3">
@@ -17,12 +17,31 @@
   <script src="/baremux/index.js?v=3"></script>
   <script src="/wk/wk2.js?v=3"></script>
   <script src="/wk/wk3.js?v=3"></script>
-  <div id="contextMenu" class="context-menu themesExcluded" style="--ripple-duration: 300ms;"><div class="context-menu-item with-submenu themesExcluded" id="contextItem" anim="ripple" onclick="toggleSubmenu(event)"><i class="bi bi-file-spreadsheet"></i> Tab Cloak</div><div class="context-submenu themesExcluded" id="contextItem"><div class="context-menu-item themesExcluded" id="contextItem" anim="ripple" onclick="tabCloak()">Enable</div><div class="context-menu-item themesExcluded" anim="ripple" onclick="disableTabCloak()">Disable</div></div><div class="context-menu-item themesExcluded" id="contextItem" onclick="visitSite()"><i class="bi bi-clock-history"></i> Last Visited Site</div><div class="context-menu-item themesExcluded" id="contextItem" onclick="openWindow()"><i class="bi bi-box-arrow-up-right"></i> About:Blank Cloak</div><div class="context-menu-item themesExcluded" id="contextItem" onclick="openSettings()"><i class="bi bi-gear"></i> View all Settings</div></div>
+  <div id="contextMenu" class="context-menu themesExcluded" style="--ripple-duration: 300ms;">
+    <div class="context-menu-item with-submenu themesExcluded" id="contextItem" anim="ripple" onclick="toggleSubmenu(event)">
+      <i class="bi bi-file-spreadsheet"></i> Tab Cloak
+    </div>
+    <div class="context-submenu themesExcluded" id="contextItem">
+      <div class="context-menu-item themesExcluded" id="contextItem" anim="ripple" onclick="tabCloak()">Enable</div>
+      <div class="context-menu-item themesExcluded" anim="ripple" onclick="disableTabCloak()">Disable</div>
+    </div>
+    <div class="context-menu-item themesExcluded" id="contextItem" onclick="visitSite()">
+      <i class="bi bi-clock-history"></i> Last Visited Site
+    </div>
+    <div class="context-menu-item themesExcluded" id="contextItem" onclick="openWindow()">
+      <i class="bi bi-box-arrow-up-right"></i> About:Blank Cloak
+    </div>
+    <div class="context-menu-item themesExcluded" id="contextItem" onclick="openSettings()">
+      <i class="bi bi-gear"></i> View all Settings
+    </div>
+  </div>
   <nav id="mytopnav">
     <button class="btn-main" anim="ripple" onclick="send('/settings.html')"><i class="bi bi-gear" style="font-size:30px;"></i>Settings</button>
     <button class="btn-main" anim="ripple" onclick="send('/gms')"><i class="bi bi-joystick" style="font-size:30px;"></i>Games</button>
     <button class="btn-main" anim="ripple" onclick="send('/apps')"><i class="bi bi-grid-fill" style="font-size:30px;"></i>Apps</button><br>
-    <a href="#" class="title" anim="ripple"><img src="/assets/img/doge2.jpg" style="width:22px;height:22px;" id="logo"> low taper fade</a>    
+    <a href="#" class="title" anim="ripple">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0xNyRsahCXJ3cQTPRLydPy47BZelyh2QNbw&s" style="width:22px;height:22px;" id="logo"> low taper fade
+    </a>    
   </nav>
   <div style="text-align:center;color:white;margin-top: 80px;z-index:1;" class="themesExcluded">
     <div class="themesExcluded">
@@ -31,11 +50,8 @@
         <input type="text" name="url" class="browse-input themesExcluded" style="font-family:poppins;font-size:20px;z-index:1;" placeholder="Type URL or search query"><p class="splashText themesExcluded" id="placeholder"></p>
       </form>
     </div>
-    <div class="footer themesExcluded" style="text-align:right;">
-      <!-- Discord link removed as requested -->
-      <a href="https://github.com/dogenetwork/v4" target="new"><i class="bi bi-github"></i></a>
-    </div>
-    <!-- Removed the Site Info button here -->
+    <!-- Footer removed -->
+    <!-- Site Info link removed -->
     <div style="position: fixed; bottom: 10px; right: 10px; color: #3399FF; font-size: 14px; font-family: poppins, sans-serif; user-select:none;">
       changed a tiny bit by nick for less suspicion
     </div>
